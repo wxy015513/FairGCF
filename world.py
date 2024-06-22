@@ -1,0 +1,17 @@
+config = {}
+all_dataset = ['amusic', 'akindle', 'aelectronics']
+all_models  = ['lgn']
+config['bpr_batch_size'] = args.bpr_batch
+config['latent_dim_rec'] = args.recdim
+config['fairGCF_n_layers']= args.layer
+config['dropout'] = args.dropout
+config['keep_prob']  = args.keepprob
+config['A_n_fold'] = args.a_fold
+config['test_u_batch_size'] = args.testbatch
+config['multicore'] = args.multicore
+config['lr'] = args.lr
+config['decay'] = args.decay
+config['pretrain'] = args.pretrain
+config['A_split'] = False
+config['bigdata'] = False
+config['fairness_factor'] = args.fairness_factor
